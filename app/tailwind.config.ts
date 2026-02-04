@@ -2,6 +2,7 @@
 import type { Config } from "tailwindcss";
 
 export default <Partial<Config>>{
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -12,6 +13,11 @@ export default <Partial<Config>>{
         // Montserrat fontunu tanımlıyoruz
         montserrat: ["Montserrat", "sans-serif"],
       },
+      container: {
+        center: true,
+        padding: "2rem",
+      },
     },
   },
+  plugins: [],
 };
