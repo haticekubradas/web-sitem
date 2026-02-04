@@ -4,7 +4,4 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/fonts"],
   // Tüm sitede varsayılan olarak Montserrat kullanmak istersen:
-  tailwindcss: {
-    viewer: true,
-  },
 });

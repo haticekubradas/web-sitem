@@ -6,7 +6,7 @@
     </main>
 
     <footer class="bg-gray-800 text-white p-4 text-center">
-      © {{ new Date().getFullYear() }} Hatice Kübra. Tüm Hakları Saklıdır.
+      © {{ new Date().getFullYear() }} Hatice Kübra Daş. Tüm Hakları Saklıdır.
     </footer>
   </div>
 </template>
